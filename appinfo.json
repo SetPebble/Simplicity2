@@ -1,0 +1,23 @@
+{
+  "uuid":"B094F317-2D6F-4C38-A02F-85EF26710288",
+  "shortName":"Simplicity",
+  "longName":"Simplicity",
+  "companyName":"SetPebble",
+  "versionCode":1,
+  "versionLabel":"2.0",
+  "watchapp":{ "watchface":true },
+  "capabilities":["configurable"],
+  "appKeys":{
+    "action":0,
+    "screen":1,
+    "date":2,
+    "vibrate":3
+  },
+  "resources":{
+    "media":[
+      { "menuIcon":true, "type":"png", "name":"IMAGE_MENU_ICON", "file":"images/menu_icon_simplicity.png" },
+      { "type":"font", "name":"FONT_ROBOTO_CONDENSED_21", "file":"fonts/Roboto-Condensed.ttf" },
+      { "characterRegex":"[:0-9]", "type":"font", "name":"FONT_ROBOTO_BOLD_SUBSET_49", "file":"fonts/Roboto-Bold.ttf" }
+    ]
+  }
+}
