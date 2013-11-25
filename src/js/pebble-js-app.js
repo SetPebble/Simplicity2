@@ -33,7 +33,7 @@ Pebble.addEventListener('webviewclosed', function(e) {
   if ((typeof(e.response) == 'string') && (e.response.length > 0)) {
     try {
       Pebble.sendAppMessage(JSON.parse(e.response));
-      localStorage.setItem('C45W, e.response);
+      localStorage.setItem('C45W', e.response);
     } catch(e) {
     }
   }
